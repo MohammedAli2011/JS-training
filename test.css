@@ -1,5 +1,6 @@
 * {
     scroll-behavior: smooth;
+    margin: 0;
 }
 
 body {
@@ -7,6 +8,15 @@ body {
     height: 1000px;
 }
 
+a {
+    text-decoration: none;
+}
+
+.hide {
+    display: none;
+}
+
+/* change theme btn */
 .nav-link{
     color: #ced4da !important;
 }
@@ -36,5 +46,15 @@ body {
 #nl3:hover {
     background-color: #ed9925 !important;
     color: #0029bd !important;
+    transition: all 0.3s;
+}
+
+/* burger menu */
+.burger-menu .list-item a {
+    color: #ced4da;
+}
+.burger-menu .list-item a:hover {
+    background-color: #ced4da;
+    color: #212529 !important;
     transition: all 0.3s;
 }

@@ -1,3 +1,4 @@
+// create cards
 /* function product(r) {
     // create elements
     let alldiv = document.createElement("div");
@@ -78,3 +79,15 @@ t.onclick = function () {
     }
 } */
 
+//burger menu
+/* let burgerBtn = document.getElementById("burger");
+let nav = document.getElementById("nav")
+burgerBtn.onclick = function () {
+    if(burgerBtn.id === "burger") {
+        burgerBtn.id= "bb"
+        nav.classList.remove('hide')
+    }else {
+        burgerBtn.id= "burger"
+        nav.classList.add('hide')
+    }
+} */
