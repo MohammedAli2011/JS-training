@@ -1,0 +1,40 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Cairo, sans-serif;
+    height: 1000px;
+}
+
+.nav-link{
+    color: #ced4da !important;
+}
+
+.nav-link:hover{
+    background-color: #ed9925 !important;
+    color: #212529 !important;
+    transition: all 0.3s;
+}
+
+.active{
+    background-color: #ed9925 !important;
+    color: #212529 !important;
+}
+
+#nl2 {
+    color: #fff !important;
+}
+#nl3 {
+    color: #fff !important;
+}
+#nl2:hover {
+    background-color: #ed9925 !important;
+    color: #0029bd !important;
+    transition: all 0.3s;
+}
+#nl3:hover {
+    background-color: #ed9925 !important;
+    color: #0029bd !important;
+    transition: all 0.3s;
+}
