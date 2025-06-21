@@ -5,7 +5,7 @@
 
 body {
     font-family: Cairo, sans-serif;
-    height: 1000px;
+    height: 2000px;
 }
 
 a {
@@ -17,7 +17,7 @@ a {
 }
 
 /* change theme btn */
-.nav-link{
+/* .nav-link{
     color: #ced4da !important;
 }
 
@@ -47,14 +47,14 @@ a {
     background-color: #ed9925 !important;
     color: #0029bd !important;
     transition: all 0.3s;
-}
+} */
 
 /* burger menu */
-.burger-menu .list-item a {
+/* .burger-menu .list-item a {
     color: #ced4da;
 }
 .burger-menu .list-item a:hover {
     background-color: #ced4da;
     color: #212529 !important;
     transition: all 0.3s;
-}
+} */

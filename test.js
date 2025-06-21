@@ -406,3 +406,72 @@ inp.onkeyup = function () {
         };
     }
 };*/
+// vars
+
+/* var - let - const
+let name = 'Ahmed ';
+let age = 14 ;
+console.log("my name is " + name + "and my age is " + age);
+console.log(`my name is ${name}and my age is ${age}`); */
+
+// numbers
+
+/* +text - number(text); - parseInt(text:not-float); - parseFloat(text:float);
+Math.round - pow - ceil(up) - floor(under) - min - max
+let num = 5;
+num +=1;+1
+num -=1;-1
+num++;+1
+num--;-1
+let num2 = 4;
+console.log(num + num2); */
+
+// string
+
+/* let x = 100;
+console.log(typeof (100).toString());
+console.log(typeof 100..toString());
+console.log(typeof x.toString());
+repeat - length - access - search - slice - split
+let name = 'ali ';
+console.log(name.repeat(10));
+console.log(name.length);
+console.log(name[0]);
+console.log(name[1]);
+console.log(name[2]);
+console.log(name[3]);
+console.log(name.charAt(0));
+console.log(name.charAt(1));
+console.log(name.charAt(2));
+console.log(name.charAt(3));
+console.log(name.indexOf('a'));
+console.log(name.indexOf('l'));
+console.log(name.indexOf('i'));
+console.log(name.indexOf(' '));
+console.log(name.lastIndexOf('a'));
+console.log(name.lastIndexOf('l'));
+console.log(name.lastIndexOf('i'));
+console.log(name.lastIndexOf(' '));
+console.log(name.startsWith('a'));
+console.log(name.endsWith(' '));
+console.log(name.slice());
+console.log(name.slice(2));
+console.log(name.slice(0 , 2));
+let name2 = ["ali" , "Karem" , "noha" , "soha"];
+console.log(name2.split());
+console.log(name2.split(' '));
+name2.splice(name2.length , 0 , "you" , "ali" , 1e5);
+console.log(name2);
+console.log(name2.split(''));
+let x = window.prompt("enter a number");;
+if(x >= 3) {
+    document.write(x * 3)
+} */
+
+//array
+
+/* let arr = [4 , 2 , 3 , 6 , 9 , 1 , 5 , 7 , 8];
+let arr2 = [4 , 2 , 3 , 6 , 9 , 1 , 5 , 7 , 8];
+let arr3 = [4 , 2 , 3 , 6 , 9 , 1 , 5 , 7 , 8];
+
+console.log(arr.concat(arr2 , arr3).sort().join(" - ")); */
