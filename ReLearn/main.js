@@ -57,7 +57,7 @@ console.log(p); */
 
 ///////////////////////////////////////////////////
 
-let day = +prompt("enter the num of day do you want");
+/* let day = +prompt("enter the num of day do you want");
 sallary = 100;
 
 switch (day) {
@@ -69,4 +69,6 @@ switch (day) {
     case 6: console.log("The Day Is Tuesday"); break;
     case 7: console.log("The Day Is Friday"); break;
     default: console.log("The Day Is Unknown"); break;
-};
+}; */
+
+///////////////////////////////////////////////////
