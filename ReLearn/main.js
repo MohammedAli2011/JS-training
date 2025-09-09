@@ -72,3 +72,14 @@ switch (day) {
 }; */
 
 ///////////////////////////////////////////////////
+
+/* let myFamily = ["ali", "ahmed", "doaa"];
+
+console.log(myFamily[2])// doaa
+myFamily[2] = "noha"
+console.log(myFamily[2])// noha
+myFamily[2] = ["doaa", "noha"]
+console.log(myFamily[2])// ["doaa", "noha"]
+console.log(myFamily[2][1][0])// N */
+
+////////////////////////////////////////////////////
