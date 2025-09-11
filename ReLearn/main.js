@@ -83,3 +83,22 @@ console.log(myFamily[2])// ["doaa", "noha"]
 console.log(myFamily[2][1][0])// N */
 
 ////////////////////////////////////////////////////
+
+/* let myFamily = ["ali", "ahmed", "doaa", "Gathem"];
+
+// for (let i = 0; i < myFamily.length; i++) {
+//     console.log(myFamily[i]);
+// };
+
+// let i = 0;
+// for (; ;) {
+//     console.log(myFamily[i]);
+//     i++;
+//     if (i === myFamily.length) break;
+// };
+
+// let i = 0;
+// while (i < myFamily.length) {
+//     console.log(myFamily[i]);
+//     i++;
+// } */
