@@ -102,3 +102,102 @@ console.log(myFamily[2][1][0])// N */
 //     console.log(myFamily[i]);
 //     i++;
 // } */
+
+//////////////////////////////////////////////////////////
+
+/*//  function sayHello(theName) {
+//     console.log(`Hello ${theName}`);
+// };
+
+// sayHello("memo");
+
+
+// function genarateYears(start, end) {
+//     for (let i = start; i <= end; i++) {
+//         console.log(i)
+//     }
+// };
+
+// genarateYears(2011, 2025);
+
+
+// function Years(start, end) {
+//     return `You Are (${end - start}) Years old`;
+// };
+
+// console.log(Years(2011, 2025));
+
+
+// let calc = function () {
+//     return `You Are (${end - start}) Years old`;
+// };
+
+// calc(2011, 2025);
+
+// function Years3(start, end) {
+//     function calc2() {
+//         function gen() {
+//             return `You Are (${end - start}) Years old`;
+//         };
+//         return gen();
+//     };
+//     return calc2();
+// };
+
+// console.log(Years3(2011, 2025));
+
+// let years = (start, end) => `You Are (${end - start}) Years old`;
+
+// console.log(years(2011, 2025)); */
+
+////////////////////////////////////////////////////////////
+
+/* // let a = [1, 2, 3, 4, 5, 6];
+
+// let add = a.map((el) => el + el);
+// console.log(add);
+
+// let names = ["ahmed", "israa", "osama", "ayman", "amer"];
+
+// let fillteredNames = names.filter((el) => el.startsWith("a"));
+
+// console.log(fillteredNames)
+
+// let a = [1, 2, 3, 4, 5, 6];
+
+// let add = a.reduce(function (acc, cur) {
+//     return acc + cur
+// });
+
+// console.log(add); */
+
+/////////////////////////////////////////////////////////////
+
+/* let obj = {
+    name: "memo",
+    age: 14,
+    country: "eg",
+};
+
+
+let name = "name";
+let age = "age";
+let country = "country";
+
+console.log(obj.name);//memo
+console.log(obj["name"]);//memo
+console.log("################################");
+console.log(obj[name]);//memo
+console.log("------------------------------------------");
+console.log(obj.age);//14
+console.log(obj["age"]);//14
+console.log("################################");
+console.log(obj[age]);//14
+console.log("------------------------------------------");
+console.log(obj.country);//eg
+console.log(obj["country"]);//eg
+console.log("################################");
+console.log(obj[country]);//eg */
+
+///////////////////////////////////////////////////////////////
+
