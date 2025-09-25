@@ -1,37 +1,37 @@
 // document.write("tata");
 // console.log(hello);
-/* console.log("Elzero\n\nWeb\n\nSchool");
-console.log(`Elzero Web School`)
-console.log(
-`Elzero
-Web
-School`
-) */
+// console.log("Elzero\n\nWeb\n\nSchool");
+// console.log(`Elzero Web School`)
+// console.log(
+//     `Elzero
+// Web
+// School`
+// ) 
 
 ////////////////////////////////////////////////////////
 
-/* let theTitle = "Elzero";
-let theDesc = "Elzero Web School";
-let theDate = "20/5";
-let card =
-`<div class ="card">
-    <div class ="container">
-        <h1>${theTitle}</h1>
-        <p>${theDesc}</p>
-        <span>${theDate}</span>
-    </div>
-</div>`;
-document.write("#".repeat(50));
-document.write(card.repeat(4));
-document.write("#".repeat(50)); */
+// let theTitle = "Elzero";
+// let theDesc = "Elzero Web School";
+// let theDate = "20/5";
+// let card =
+//     `<div class ="card">
+//     <div class ="container">
+//         <h1>${theTitle}</h1>
+//         <p>${theDesc}</p>
+//         <span>${theDate}</span>
+//     </div>
+// </div>`;
+// document.write("#".repeat(50));
+// document.write(card.repeat(4));
+// document.write("#".repeat(50)); 
 
 //////////////////////////////////////////////////
 
-/* console.log("elzero web %csch%cool", "color: blue;font-size: 50px;", "color: red;font-size: 50px;");
+// console.log("elzero web %csch%cool", "color: blue;font-size: 50px;", "color: red;font-size: 50px;");
 
-let names = ["ah", "ali", "mo"]
+// let names = ["ah", "ali", "mo"]
 
-console.table(names) */
+// console.table(names) 
 
 ///////////////////////////////////////////////////
 
@@ -39,9 +39,9 @@ console.table(names) */
 
 ///////////////////////////////////////////////////
 
-/* let p = 100;
-let d = true;
-let dA = 10;
+// let p = 100;
+// let d = true;
+// let dA = 10;
 
 // if (d === true) {
 //     p -= dA;
@@ -51,40 +51,40 @@ let dA = 10;
 
 // condation abbreviation
 
-d === true ? p -= dA : p;
+// d === true ? p -= dA : p;
 
-console.log(p); */
-
-///////////////////////////////////////////////////
-
-/* let day = +prompt("enter the num of day do you want");
-sallary = 100;
-
-switch (day) {
-    case 1: console.log("The Day Is Saturday"); break;
-    case 2: console.log("The Day Is Sunday"); break;
-    case 3: console.log("The Day Is Monday"); break;
-    case 4: console.log("The Day Is T day"); break;
-    case 5: console.log("The Day Is W day"); break;
-    case 6: console.log("The Day Is Tuesday"); break;
-    case 7: console.log("The Day Is Friday"); break;
-    default: console.log("The Day Is Unknown"); break;
-}; */
+// console.log(p); 
 
 ///////////////////////////////////////////////////
 
-/* let myFamily = ["ali", "ahmed", "doaa"];
+// let day = +prompt("enter the num of day do you want");
+// sallary = 100;
 
-console.log(myFamily[2])// doaa
-myFamily[2] = "noha"
-console.log(myFamily[2])// noha
-myFamily[2] = ["doaa", "noha"]
-console.log(myFamily[2])// ["doaa", "noha"]
-console.log(myFamily[2][1][0])// N */
+// switch (day) {
+//     case 1: console.log("The Day Is Saturday"); break;
+//     case 2: console.log("The Day Is Sunday"); break;
+//     case 3: console.log("The Day Is Monday"); break;
+//     case 4: console.log("The Day Is T day"); break;
+//     case 5: console.log("The Day Is W day"); break;
+//     case 6: console.log("The Day Is Tuesday"); break;
+//     case 7: console.log("The Day Is Friday"); break;
+//     default: console.log("The Day Is Unknown"); break;
+// }; 
+
+///////////////////////////////////////////////////
+
+// let myFamily = ["ali", "ahmed", "doaa"];
+
+// console.log(myFamily[2])// doaa
+// myFamily[2] = "noha"
+// console.log(myFamily[2])// noha
+// myFamily[2] = ["doaa", "noha"]
+// console.log(myFamily[2])// ["doaa", "noha"]
+// console.log(myFamily[2][1][0])// N 
 
 ////////////////////////////////////////////////////
 
-/* let myFamily = ["ali", "ahmed", "doaa", "Gathem"];
+// let myFamily = ["ali", "ahmed", "doaa", "Gathem"];
 
 // for (let i = 0; i < myFamily.length; i++) {
 //     console.log(myFamily[i]);
@@ -101,11 +101,11 @@ console.log(myFamily[2][1][0])// N */
 // while (i < myFamily.length) {
 //     console.log(myFamily[i]);
 //     i++;
-// } */
+// } 
 
 //////////////////////////////////////////////////////////
 
-/*//  function sayHello(theName) {
+//  function sayHello(theName) {
 //     console.log(`Hello ${theName}`);
 // };
 
@@ -148,11 +148,11 @@ console.log(myFamily[2][1][0])// N */
 
 // let years = (start, end) => `You Are (${end - start}) Years old`;
 
-// console.log(years(2011, 2025)); */
+// console.log(years(2011, 2025)); 
 
 ////////////////////////////////////////////////////////////
 
-/* // let a = [1, 2, 3, 4, 5, 6];
+// let a = [1, 2, 3, 4, 5, 6];
 
 // let add = a.map((el) => el + el);
 // console.log(add);
@@ -169,35 +169,105 @@ console.log(myFamily[2][1][0])// N */
 //     return acc + cur
 // });
 
-// console.log(add); */
+// console.log(add);
 
 /////////////////////////////////////////////////////////////
 
-/* let obj = {
-    name: "memo",
-    age: 14,
-    country: "eg",
-};
+// let obj = {
+//     name: "memo",
+//     age: 14,
+//     country: "eg",
+// };
 
 
-let name = "name";
-let age = "age";
-let country = "country";
+// let name = "name";
+// let age = "age";
+// let country = "country";
 
-console.log(obj.name);//memo
-console.log(obj["name"]);//memo
-console.log("################################");
-console.log(obj[name]);//memo
-console.log("------------------------------------------");
-console.log(obj.age);//14
-console.log(obj["age"]);//14
-console.log("################################");
-console.log(obj[age]);//14
-console.log("------------------------------------------");
-console.log(obj.country);//eg
-console.log(obj["country"]);//eg
-console.log("################################");
-console.log(obj[country]);//eg */
+// console.log(obj.name);//memo
+// console.log(obj["name"]);//memo
+// console.log("################################");
+// console.log(obj[name]);//memo
+// console.log("------------------------------------------");
+// console.log(obj.age);//14
+// console.log(obj["age"]);//14
+// console.log("################################");
+// console.log(obj[age]);//14
+// console.log("------------------------------------------");
+// console.log(obj.country);//eg
+// console.log(obj["country"]);//eg
+// console.log("################################");
+// console.log(obj[country]);//eg
 
 ///////////////////////////////////////////////////////////////
 
+// console.log(location.href);
+// console.log(location.host);
+// console.log(location.hostname);
+// console.log(location.hash);
+// console.log(location.protocol);
+// console.log(location.replace("https://google.com"));
+// console.log(location.assign("https://google.com"))
+
+///////////////////////////////////////////////////////////////
+
+// let myFamily = ["Ali", "Ahmed", "Doaa", "Mohammed", ['amged', 'samy']];
+
+// let [a, a2, d, m, [s, v]] = myFamily;
+
+// console.log(a);
+// console.log(a2);
+// console.log(d);
+// console.log(m);
+// console.log(s);
+// console.log(v);
+
+
+// let obj = {
+//     name: "mohammed",
+//     age: 14,
+//     country: "Egy",
+//     skills: {
+//         html: 100,
+//         css: 40,
+//         js: 90
+//     }
+// };
+
+// let {
+//     name: n,
+//     age: a,
+//     country: c,
+//     skills: { html: h, css, js }
+// } = obj;
+// let {
+//     html: h,
+//     css,
+//     js
+// } = obj.skills;//the same result of (skills: { html: h, css, js })
+
+
+
+// console.log(name);
+// console.log(age);
+// console.log(country);
+// console.log(html);
+// console.log(css);
+// console.log(js);
+
+// console.log(n);
+// console.log(a);
+// console.log(c);
+// console.log(h);
+// console.log(css);
+// console.log(js);
+
+//////////////////////////////////////////////////////////////
+
+let nums = [1, 1, 1, 2, 3, 4];
+let uniqueNums = new Set(nums);
+
+console.log(nums);//[1, 1, 1, 2, 3, 4]
+console.log(uniqueNums);//{1, 2, 3, 4}
+console.log(nums.length);//6
+console.log(uniqueNums.size);//4
