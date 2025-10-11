@@ -6,7 +6,7 @@
 //     `Elzero
 // Web
 // School`
-// ) 
+// )
 
 ////////////////////////////////////////////////////////
 
@@ -23,7 +23,7 @@
 // </div>`;
 // document.write("#".repeat(50));
 // document.write(card.repeat(4));
-// document.write("#".repeat(50)); 
+// document.write("#".repeat(50));
 
 //////////////////////////////////////////////////
 
@@ -31,7 +31,7 @@
 
 // let names = ["ah", "ali", "mo"]
 
-// console.table(names) 
+// console.table(names)
 
 ///////////////////////////////////////////////////
 
@@ -53,7 +53,7 @@
 
 // d === true ? p -= dA : p;
 
-// console.log(p); 
+// console.log(p);
 
 ///////////////////////////////////////////////////
 
@@ -69,7 +69,7 @@
 //     case 6: console.log("The Day Is Tuesday"); break;
 //     case 7: console.log("The Day Is Friday"); break;
 //     default: console.log("The Day Is Unknown"); break;
-// }; 
+// };
 
 ///////////////////////////////////////////////////
 
@@ -80,7 +80,7 @@
 // console.log(myFamily[2])// noha
 // myFamily[2] = ["doaa", "noha"]
 // console.log(myFamily[2])// ["doaa", "noha"]
-// console.log(myFamily[2][1][0])// N 
+// console.log(myFamily[2][1][0])// N
 
 ////////////////////////////////////////////////////
 
@@ -101,7 +101,7 @@
 // while (i < myFamily.length) {
 //     console.log(myFamily[i]);
 //     i++;
-// } 
+// }
 
 //////////////////////////////////////////////////////////
 
@@ -148,7 +148,7 @@
 
 // let years = (start, end) => `You Are (${end - start}) Years old`;
 
-// console.log(years(2011, 2025)); 
+// console.log(years(2011, 2025));
 
 ////////////////////////////////////////////////////////////
 
@@ -264,10 +264,57 @@
 
 //////////////////////////////////////////////////////////////
 
-let nums = [1, 1, 1, 2, 3, 4];
-let uniqueNums = new Set(nums);
+// let nums = [1, 1, 1, 2, 3, 4];
+// let uniqueNums = new Set(nums);
 
-console.log(nums);//[1, 1, 1, 2, 3, 4]
-console.log(uniqueNums);//{1, 2, 3, 4}
-console.log(nums.length);//6
-console.log(uniqueNums.size);//4
+// console.log(nums);//[1, 1, 1, 2, 3, 4]
+// console.log(uniqueNums);//{1, 2, 3, 4}
+// console.log(nums.length);//6
+// console.log(uniqueNums.size);//4
+
+/////////////////////////////////////////////////////////////
+
+/*
+    i => The case of the first letter is not important, whether it is capital or small.
+    g =>It does not bring the first matching word or thing it brings all matching words or things.
+*/
+
+// let text = 'I love Elzero Web School , I Love elzero';
+// let reg1 = /elzero/;
+// let reg2 = /Elzero/;
+// let reg3 = /elzero/i;
+// let reg4 = /Elzero/i;
+// let reg5 = /elzero/g;
+// let reg6 = /Elzero/g;
+// let reg7 = /elzero/ig;
+// let reg8 = /Elzero/ig;
+// let reg9 = /elzeros/;
+
+// console.log(text.match(reg1));// ['elzero', index: 34, input: 'I love Elzero Web School , I Love elzero', groups: undefined]
+// console.log(text.match(reg2));// ['Elzero', index: 7, input: 'I love Elzero Web School , I Love elzero', groups: undefined]
+// console.log(text.match(reg3));// ['Elzero', index: 7, input: 'I love Elzero Web School , I Love elzero', groups: undefined]
+// console.log(text.match(reg4));// ['Elzero', index: 7, input: 'I love Elzero Web School , I Love elzero', groups: undefined]
+// console.log(text.match(reg5));// ['elzero']
+// console.log(text.match(reg6));// ['Elzero']
+// console.log(text.match(reg7));// ['Elzero', 'elzero']
+// console.log(text.match(reg8));// ['Elzero', 'elzero']
+// console.log(text.match(reg9));// null
+
+// let text = 'abcdefghijklmnopqrstuvwxyz111222333444555666777888999101010';
+// let textReg = /[a-z]/ig;
+// let numReg = /[^a-z]/ig;
+
+// console.log(text.match(textReg))// ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+// console.log(text.match(numReg))// ['1', '1', '1', '2', '2', '2', '3', '3', '3', '4', '4', '4', '5', '5', '5', '6', '6', '6', '7', '7', '7', '8', '8', '8', '9', '9', '9', '1', '0', '1', '0', '1', '0']
+
+// let persons = '1spam,1spam,1spam,1spam, spam1, spam1, spam1, Aspamo, ahmed';
+// let reg = /(\dspam|spam\d)/ig;
+
+// console.log(persons.match(reg));
+
+// let names = '3Mohammed 1Aliz 2Ahmedz 5gamalz 8Mohammedz';
+// let reg = /\d\w{1,8}(?=z)/ig;
+// let reg2 = /\d\w{8}(?=z)/ig;
+
+// console.log(names.match(reg));
+// console.log(names.match(reg2));
